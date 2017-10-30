@@ -1,0 +1,4 @@
+services:
+#    cleverti_my_super_rest.example:
+#        class: cleverti\MySuperRestBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

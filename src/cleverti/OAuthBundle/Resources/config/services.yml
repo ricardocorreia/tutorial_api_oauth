@@ -1,0 +1,4 @@
+services:
+#    cleverti_o_auth.example:
+#        class: cleverti\OAuthBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

@@ -1,0 +1,4 @@
+cleverti_my_super_rest_controller:
+    type:     rest
+    resource: cleverti\MySuperRestBundle\Controller\RestController
+

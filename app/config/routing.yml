@@ -1,0 +1,26 @@
+cleverti_user:
+    resource: "@clevertiUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+cleverti_o_auth:
+    resource: "@clevertiOAuthBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+cleverti_my_super_rest_bundle:
+    resource: "@clevertiMySuperRestBundle/Resources/config/routing.yml"
+    prefix:   /api
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+fos_oauth_server_token:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/token.xml"
+
+fos_oauth_server_authorize:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/authorize.xml"

@@ -10,6 +10,9 @@
 # NetBeans project
 /nbproject/
 
+# CS cache
+.php_cs.cache
+
 # Email spool folder
 /app/spool/*
 
